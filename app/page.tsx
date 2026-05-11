@@ -1,18 +1,15 @@
 import React from "react";
 import HeroSection from "./component/HeroSection";
 import Bento from "./component/Bento";
+import HeroBento from "./component/HeroBento";
 
 const page = () => {
   return (
-    <div
-      className="h-[1440px]"
-      style={{
-        paddingTop: "var(--navbar-height)",
-      }}
-    >
+    <>
       <HeroSection />
       <Bento />
-    </div>
+      <HeroBento />
+    </>
   );
 };
 

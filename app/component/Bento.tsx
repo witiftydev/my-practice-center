@@ -5,7 +5,7 @@ import React from "react";
 
 const Bento = () => {
   return (
-    <div className="min-h-screen p-4">
+    <div className="p-4">
       <div
         className="
           grid
