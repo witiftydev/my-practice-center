@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "./component/HeroSection";
+import Bento from "./component/Bento";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       }}
     >
       <HeroSection />
+      <Bento />
     </div>
   );
 };
